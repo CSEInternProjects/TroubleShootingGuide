@@ -1,0 +1,283 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+/* layout styles (only for demo)*/
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    /*background: #2980b9;*/
+    background-image: url("background2.jpg");
+    background-size: 100%;
+
+}
+
+#AddQuestionTag{
+        background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    margin-left: 68%;
+    /*margin-bottom: 55%;*/
+    width: 30%;
+    bottom: 10%;
+    display: none;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 7px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19)
+}
+#AddQuestionTag:hover {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.24),0 10px 13px 0 rgba(0,0,0,0.19);
+}
+.btn-primary{
+background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;    
+box-shadow: 0 2px 7px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19)
+}
+.btn-primary:hover {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.24),0 10px 13px 0 rgba(0,0,0,0.19);
+}
+.extentNodeAndUpdate{
+ background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 2%;   
+box-shadow: 0 2px 7px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19)
+}
+.extentNode:hover {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.24),0 10px 13px 0 rgba(0,0,0,0.19);
+}
+#load {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    background: url(https://www.creditmutuel.fr/cmne/fr/banques/webservices/nswr/images/loading.gif) no-repeat center center rgba(0,0,0,0.25);
+}
+.addOption{
+    top: 66%;
+    font-size: x-small;
+    height: 30%;
+    left: -60%;
+    position: relative;
+}
+#addOptionsBox
+{
+  position:absolute;
+  left:20%;
+  top:20%;
+  width:40%;
+  height:20%;
+  background-color: #F87B7B;
+
+}
+#input-option{
+  position: absolute;
+  left:30%;
+  top:20%;
+  width:50%;
+}
+#input-label{
+  position: absolute;
+  top:20%;
+  left:5%;
+}
+#input-save
+{
+  position:absolute;
+  left:80%;
+  top:80%;
+  width:15%;
+}
+.barOnTop{
+ width: 102%;
+    height: 50px;
+    margin-top: -10px;
+    background-color: black;
+    margin-left: -8px;
+}
+.konyimg{
+
+  width:10%;
+  height:100%;
+  margin-left: 89%;
+
+
+}
+.headding{
+  font-size: 2em;
+  color: #FFEFD5;
+  margin-top: 0px;
+  top: 0.5%;
+  text-align:center;
+    position:absolute;
+    left: 12%;
+}
+#forAns{
+    background-color: rgba(255, 245, 245, 0.22);
+    color: chartreuse;
+    font-family: sans-serif;
+    font-weight: inherit;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    border-radius: 3px;
+}
+
+.editAns{
+            background-color: #4CAF50 ;
+        border: none;
+        color: white;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        /*display: inline-block;*/
+        margin-left: 85%;
+        font-size: 16px;
+        border-radius: 4px;
+        box-shadow: 0 2px 7px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19)
+
+    }
+
+
+
+div.c1 {
+/*    overflow: auto;*/
+    width:45%;
+    max-height: 500px;
+    overflow-y: scroll;
+    float: left;
+    border: 1px solid #3498db;
+    margin: 1%;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 24px;
+    box-shadow: 0 2px 7px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
+    background-color: rgba(0, 0, 0, 0.57);
+    /*border-radius: 15px;*/
+    
+}
+div.c2 {
+    width: 47%;
+    float: left;
+    border: 1px solid #3498db;
+    margin: 1%;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.57);
+    border-radius: 15px;
+}
+
+h1 {
+    color: #ecf0f1;
+    font-weight: 300;
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0 10px 0;
+}
+
+h2 {
+    color: #ecf0f1;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 15px 0;
+    text-align: center
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+p{
+    color: #fff;
+    text-align:center;
+    font-size:12px;
+}
+
+ul {
+    padding: 0px;
+    margin: 5px 20px;
+    border-left: 1px solid #3498db;
+}
+
+li {
+    padding: 5px;
+}
+
+a.qaq {
+    display: inline-block;
+    color: #2980b9;
+    width: 90%;
+    font-style: italic;
+}
+
+select.qas {
+  position: absolute;
+    border: none;
+    width: 40%;
+    background: #fff;
+    font-size: 14px;
+    color: #666;
+    text-align: right;
+    right:1%;
+}
+
+div.qac {
+    background: #fff;
+    margin: 4px 20px;
+    padding: 10px 10px;
+    clear: both;
+    position: relative;
+}
+
+div.qac:before {
+    content: " ";
+    border-style: solid;
+    border-width: 6px;
+    border-color: #fff transparent transparent transparent;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 1;
+}
+
+div.qac:after {
+    content: " ";
+    border-style: solid;
+    border-width: 9px;
+    border-color: #2980b9 transparent transparent transparent;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -6px;
+    z-index: 0;
+}
+
+div.qac:last-child:before,
+div.qac:first-child:after {
+    border-width: 0px!important;
+}
+ul
+{
+  color:#fff;
+}
+
+.divButtons
+{
+  margin-top: 4%;
+}
+#questionInput
+{
+    width:99.5%;
+}
+
+
